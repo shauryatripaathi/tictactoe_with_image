@@ -14,6 +14,6 @@ img1.src = "./192948-0320-px.jpg"
 img1.id = "img1";
 
 function handleOnClick(e) {
-    tile11.appendChild(img1);
+    e.target.appendChild(img1);
 }
 grid.addEventListener("click", handleOnClick);
